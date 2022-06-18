@@ -1,5 +1,13 @@
 # packaging-with-mypy-a
 
+This Python package is to remind me how to build and distributes packages that contain type stubs built with the `stubgen` tool from [`mypy`](https://github.com/python/mypy).
+
+See <https://github.com/austinjp/packaging-with-mypy-b>.
+
+<hr />
+
+## What to do?
+
 Set up virtual environment and install dependencies:
 
 ```bash
