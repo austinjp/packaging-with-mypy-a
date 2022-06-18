@@ -37,7 +37,7 @@ export MYPYPATH="${MYPYPATH}":./venv/lib/python3.9/site-packages/
 export MYPYPATH="${MYPYPATH}":./venv/src/packaging-with-mypy-b/
 ```
 
-Run mypy as a type check:
+Run `mypy`, static type checks:
 
 ```bash
 mypy ./example
