@@ -1,0 +1,22 @@
+# Ensure build tools are up to date:
+
+pip>=22.1.2
+build
+Cython
+wheel
+setuptools
+
+# MyPy.
+
+mypy
+
+
+# Direct dependency for this project:
+
+ujson
+types-ujson  # types for ujson from Typeshed
+
+
+# Another dep, but this dep imports a package which has no type stubs.
+
+-e git+ssh://git@github.com/austinjp/packaging-with-mypy-b.git#egg=packaging_with_mypy_b
